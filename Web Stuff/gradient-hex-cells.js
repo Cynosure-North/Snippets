@@ -75,7 +75,7 @@ HTML:
 <canvas id="mask"></canvas>
 
 CSS:
-#rain{
+#gradient{
 	position: absolute;
 	top: 0;
 	left: 0;
