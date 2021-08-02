@@ -1,0 +1,28 @@
+#gradient{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#toggle{
+	position: fixed;
+	right: 0.5%;
+	bottom: 1%;
+
+
+	font-family: Consolas;
+	color: #fff;
+
+	background-color: #111;
+
+	padding: 1px 2px 2px 2px;
+	margin: 1px 2px 2px 2px;
+	border: none;
+
+}

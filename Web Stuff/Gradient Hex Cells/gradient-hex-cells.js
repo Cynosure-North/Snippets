@@ -68,22 +68,3 @@ function toggle(){
 		ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 	}
 }
-
-/*
-HTML:
-<canvas id="gradient"></canvas>
-<canvas id="mask"></canvas>
-
-CSS:
-#gradient{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-#mask{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-*/
