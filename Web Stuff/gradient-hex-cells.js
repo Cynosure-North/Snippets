@@ -68,3 +68,45 @@ function toggle(){
 		ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 	}
 }
+
+
+/*
+CSS:
+#gradient{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#toggle{
+	position: fixed;
+	right: 0.5%;
+	bottom: 1%;
+
+
+	font-family: Consolas;
+	color: #fff;
+
+	background-color: #111;
+
+	padding: 1px 2px 2px 2px;
+	margin: 1px 2px 2px 2px;
+	border: none;
+}
+
+
+HTML:
+<script type="text/javascript" src="gradient-hex-cells.js"></script>
+<body onload="init()" onresize="resize()">
+	<canvas id="gradient"></canvas>
+	<canvas id="mask"></canvas>
+	<button id="toggle" onclick="toggle()">Toggle</button>
+</body>	
+
+*/
